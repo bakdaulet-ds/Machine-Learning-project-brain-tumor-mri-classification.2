@@ -55,23 +55,3 @@ Although fine-tuning improved some class predictions, the overall accuracy was s
 
 ---
 
-## 📁 Project Structure
-
-```text
-TumorDetection/
-├── best_model.keras
-├── save.hdf5
-├── requirements.txt
-├── ToHDF5.py
-├── trainningModel.py
-├── tuning.py
-├── dataset/
-│   └── DatasetLoader.py
-├── fine_tuning/
-│   └── DataAugmentation.py
-├── models/
-│   └── models.py
-└── preprocessing/
-    ├── AspectAwarePreprocess.py
-    └── ToGray.py
-```
