@@ -74,3 +74,4 @@ TumorDetection/
 └── preprocessing/
     ├── AspectAwarePreprocess.py
     └── ToGray.py
+```
