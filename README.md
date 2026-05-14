@@ -27,7 +27,7 @@ The workflow includes:
 
 ### Base Model Results
 
-![Model Performance](images/model_performance.png)
+![Model Performance]
 
 The base CNN model achieved approximately 94% accuracy on the test dataset.  
 The confusion matrix shows strong classification performance across all four tumor classes.
@@ -36,7 +36,7 @@ The confusion matrix shows strong classification performance across all four tum
 
 ### Fine-Tuned Model Results
 
-![Fine Tuned Model](images/fine_tuned_model_performance.png)
+![Fine Tuned Model]
 
 The fine-tuned model achieved approximately 92% accuracy.  
 Although fine-tuning improved some class predictions, the overall accuracy was slightly lower compared to the base model.
@@ -55,3 +55,21 @@ Although fine-tuning improved some class predictions, the overall accuracy was s
 
 ---
 
+## 📁 Project Structure
+text
+TumorDetection/
+├── best_model.keras
+├── save.hdf5
+├── requirements.txt
+├── ToHDF5.py
+├── trainningModel.py
+├── tuning.py
+├── dataset/
+│   └── DatasetLoader.py
+├── fine_tuning/
+│   └── DataAugmentation.py
+├── models/
+│   └── models.py
+└── preprocessing/
+    ├── AspectAwarePreprocess.py
+    └── ToGray.py. 
